@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1",
+  "description": "Backend application to display the customer information",
+  "main": "app.js",
+  "author": "Sindhu",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.8",
+    "module-alias": "^2.2.2"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@routers": "./routers",
+    "@controllers": "./controllers"
+  },
+  "scripts": {
+    "build": "node app.js"
+  }
+}
