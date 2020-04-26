@@ -19,6 +19,7 @@ const renderCustomers = (props) =>
                                     fetchCustomerAddressList={fetchCustomerAddressList}
                                     />
                 </div>
+                <div className={styles.arrow}> >>> </div>
                     {
                         (selectedCustomerId)
                         ?

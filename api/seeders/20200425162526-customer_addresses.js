@@ -13,7 +13,7 @@ module.exports = {
       },
     
       {
-        customer_id: 1,
+        customer_id: 2,
           flat: 1,
           city: "Night's Watch",
           state: "North",

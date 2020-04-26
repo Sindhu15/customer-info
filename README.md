@@ -89,4 +89,4 @@ sequqlize_cli is used to run the migrations to create the tables in the database
 
 ## Working Example
 
-![Customer Info App](gif/customerApp.gif)
+![Customer Info App](gif/customerInfoApp.gif)
