@@ -6,16 +6,29 @@
   "author": "Sindhu",
   "license": "MIT",
   "dependencies": {
+    "install": "^0.13.0",
     "koa": "^2.11.0",
+    "koa-cors": "^0.0.16",
     "koa-router": "^8.0.8",
-    "module-alias": "^2.2.2"
+    "module-alias": "^2.2.2",
+    "nodemon": "^2.0.3",
+    "npm": "^6.14.4",
+    "pg": "^8.0.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.7",
+    "sequelize-cli": "^5.5.1"
   },
   "_moduleAliases": {
     "@root": ".",
     "@routers": "./routers",
-    "@controllers": "./controllers"
+    "@controllers": "./controllers",
+    "@models": "./models",
+    "@utils": "./utils/"
   },
   "scripts": {
     "build": "node app.js"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2"
   }
 }

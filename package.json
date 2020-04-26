@@ -1,9 +1,0 @@
-{
-  "name": "Sindhu",
-  "version": "1",
-  "description": "Displays customer information",
-  "main": "index.js",
-  "repository": "https://github.com/Sindhu15/customer-info.git",
-  "author": "Sindhu",
-  "license": "MIT"
-}

@@ -1,0 +1,78 @@
+.containers{
+    display:flex; 
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.customersList{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-height: 600px;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: auto;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #efefef
+}
+
+.addressList{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-height: 600px;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: auto;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #efefef;
+    font-weight: bold;
+}
+
+.address-iten{
+    min-height: 100px;
+    min-width: 200px;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #A3E4D7;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-weight: bold;
+    background: #16A085;
+    color: white;
+}
+
+.message{
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.noCustomerMessageContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #efefef
+}
+
+.arrow{
+    font-size: 30px;
+}

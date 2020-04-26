@@ -1,0 +1,23 @@
+version: "3"
+services:
+  customer_dbpostgres:
+    container_name: "customer_dbpostgres"
+    image: postgres:9.6
+    ports:
+      - "5441:5432" 
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: customer_info
+   
+  app:
+    container_name: "customer_info_app"
+    build: .
+    ports:
+      - "3020:3010"
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/app
+    links:
+      - customer_dbpostgres
+   
+      

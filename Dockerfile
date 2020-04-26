@@ -1,16 +1,15 @@
 FROM node:10
-
 WORKDIR /usr/src/app
 
 COPY . .
 
-RUN cd api/
+RUN yarn --cwd ./api
+RUN yarn --cwd ./ui
 
-COPY package*.json ./
-
-RUN yarn
-
-# EXPOSE 3000
 EXPOSE 3000
+EXPOSE 3010
 
-CMD [ "node", "./api/app.js" ]
+
+CMD [ "node" , "./api/app.js"]
+
+
