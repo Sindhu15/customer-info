@@ -12,8 +12,10 @@ const app = new Koa();
 
 const genericRoutes = require("@routers/genericRoutes");
 const customerRoutes = require("@routers/customerRoutes");
+const errorHandler = require("@utils/ErrorHandlers");
 
 app.use(cors());
+app.use(errorHandler);
 
 app
     .use(customerRoutes.router.routes())

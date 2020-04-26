@@ -30,7 +30,7 @@ const renderCustomers = (props) =>
                         </div>
                         :
                         <div className={styles.noCustomerMessageContainer}>
-                            <div className={styles.message}>Select a customer to view the address list</div>
+                            <div className={styles.message}>SELECT A CUSTOMER TO VIEW THE ADDRESS LIST</div>
                         </div>
 
                     }

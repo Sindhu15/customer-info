@@ -16,7 +16,7 @@ const renderEachAddress = (props) => {
       })
   }
   else{
-    return <div  className={styles.message}>No Address List Found For this user</div>
+    return <div  className={styles.message}>NO ADDRESS LIST FOUND FOR TIHIS CUSTOMER</div>
   }
 }
 

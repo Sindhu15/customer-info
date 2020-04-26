@@ -22,7 +22,8 @@
     "@root": ".",
     "@routers": "./routers",
     "@controllers": "./controllers",
-    "@models": "./models"
+    "@models": "./models",
+    "@utils": "./utils/"
   },
   "scripts": {
     "build": "node app.js"
