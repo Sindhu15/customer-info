@@ -3,7 +3,7 @@
     "username": "postgres",
     "password": "postgres",
     "database": "customer_info",
-    "host": "customer_info_postgres",
+    "host": "customer_dbpostgres",
     "dialect": "postgres"
   },
   "test": {
