@@ -14,7 +14,7 @@
 # . start-app.sh
 
 docker-compose down
-docker-compose build --no-cache
+docker-compose build
 docker-compose up -d
 docker exec -it customer_info_app bash
 

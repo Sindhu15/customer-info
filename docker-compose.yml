@@ -4,7 +4,8 @@ services:
     container_name: "customer_info_app"
     build: .
     ports:
-      - "3020:3000"
+      - "3020:3010"
+      - "3000:3000"
     volumes:
       - .:/usr/src/app
 

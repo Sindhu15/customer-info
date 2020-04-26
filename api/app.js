@@ -5,16 +5,21 @@
 require('module-alias/register')
 
 const Koa = require('koa');
+const cors = require('koa-cors');
+
 const app = new Koa();
+
 
 const genericRoutes = require("@routers/genericRoutes");
 const customerRoutes = require("@routers/customerRoutes");
+
+app.use(cors());
 
 app
     .use(customerRoutes.router.routes())
     .use(genericRoutes.router.routes());
 
  
-app.listen(3000);
+app.listen(3010);
 
-console.log('listening yp')
+console.log('listening')

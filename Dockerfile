@@ -13,10 +13,16 @@ WORKDIR /usr/src/app
 COPY . .
 
 RUN yarn --cwd ./api
+RUN yarn --cwd ./ui
+# RUN yarn --cwd ./ui start
 
 # EXPOSE 3000
 EXPOSE 3000
+EXPOSE 3010
+# ENTRYPOINT ["/bin/sh","-c"]
 
-CMD [ "nodemon" , "./api/app.js" ]
+CMD [ "nodemon" , "./api/app.js"]
+
+# CMD ["yarn" , "./ui" , "start" ]
 
 
