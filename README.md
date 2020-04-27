@@ -87,6 +87,35 @@ Schema for the tables are as follows:
 ## Migrations and Seeders
 sequqlize_cli is used to run the migrations to create the tables in the database and run seeders to fill the data.
 
-## Working Example
+## Code Structure
+```
+customer_info/
+    api/
+        app.js
+        models/
+        migrations/
+        seeders/
+        routers/
+        controllers/
+        utils/
+    ui/
+        src/
+            index.js
+            store/
+            provider/
+            actions/
+            reducers/
+            constants/
+            containers/
+            componnets/
+
+    README.md
+    Dockerfile
+    docker-compose.yml
+    start-app.sh
+```
+
+# Working Example
+
 
 ![Customer Info App](gif/customerInfoApp.gif)
