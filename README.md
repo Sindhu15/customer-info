@@ -117,4 +117,5 @@ customer_info/
 
 # Working Example
 
+
 ![Customer Info App](gif/customerInfoApp.gif)
